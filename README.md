@@ -4,6 +4,10 @@
 ## Abstract
 Reusable CNN and RNN model doing time series binary classification
 
+Watch `run.py` ,`utils.py`, `models.py` for detail code
+
+Run `run.py` to use model
+
 Can compare the accuracy of CNN and RNN  doing time series binary classification
 
 ## Dependancies
