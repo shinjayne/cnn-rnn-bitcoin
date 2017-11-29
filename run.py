@@ -23,7 +23,7 @@ def run_cnn(name, csvpath , learning_rate, batch_size, total_epoches, ckptfile, 
 
 
     if gen_png == True :
-        png_constuct(x_data, directory = imgdir)
+        png_construct(x_data, directory = imgdir)
     cnn_x = png_to_matrix(x_data.shape[0])
     cnn_y = y_data
     print('cnn_x.shape:',cnn_x.shape, 'cnn_y.shape',cnn_y.shape)

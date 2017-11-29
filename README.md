@@ -7,7 +7,7 @@ Reusable CNN and RNN model doing time series binary classification
 Watch `run.py` ,`utils.py`, `models.py` for detail code
 
 Run `run.py` to use model
-- to run cnn : `python3 run.py --model="cnn"`
+- to run cnn : `python3 run.py --model="cnn" --gen_png=True`
 - to run rnn : `python3 run.py --model="rnn"`
 - to use saved model : `python3 run.py --model="cnn" --ckptfile="./ckpt/cnn2.py" `
 so on ...
